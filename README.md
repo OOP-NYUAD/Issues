@@ -12,3 +12,6 @@ In a development environment, issues usually follow one of two (or both) formats
   - Feature Requests: a user who used the project would submit an issue to ask the authors to add a feature to the code to increase usability. Depending on the engagement on that particular issue, the authors can choose to add the feature or suggest a workaround.
   
 For our purposes, we will just use this to submit questions and collectively benefit from eachother's experience.
+
+# Closed v Open Issues
+If an issue is _closed_ (marked with a check mark on the "Issues" page) it is considered resolved and the answer there is considered reliable. _Open_ issues still need an answer.  
