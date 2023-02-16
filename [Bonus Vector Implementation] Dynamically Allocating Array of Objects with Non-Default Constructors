@@ -1,0 +1,11 @@
+As we try to implement our template class for a vector that can take in objects (since it is fundamentally a dynamically allocated array
+of elements of type T (int, string, objects, etc.)), how can we dynamically allocate that array with objects such that each object
+(when popped into the vector) can be called with a non-default constructor?
+
+Each time my array is declared, the following line is called:
+
+array = new T[size];
+
+How should I rethink my logic so that the non-default cosntructor can be called in the case that T is an object?
+Should we create a separate implementation that is used by the compiler in the case that an object is passed?
+
